@@ -4,7 +4,9 @@ The usual Arduino boards like the Arduino Uno , Nano, Mini etc. are only conditi
 
 The current requirement of the built-in LEDs, the USB-UART interface and the quite high quiescent current of the LDO regulator is too high for a longer operation on a battery, even if the microcontroller is in sleep mode.
 
-On the ATMega board only the most necessary components are installed, which are necessary for the operation of a microcontroller. This makes it possible to operate the controller with batteries for a longer time. The screw terminals allow stable and trouble-free connections with external components.  
+On the ATMega board only the most necessary components are installed, which are necessary for the operation of a microcontroller. This makes it possible to operate the controller with batteries for a longer time. The screw terminals allow stable and trouble-free connections with external components.
+
+With the help of a jumper the power indicator LED (consumes about 3mA) can be switched on or off as needed. 
 
 ## Limitations compared to the usual Arduino boards  
 
@@ -18,6 +20,7 @@ On the ATMega board only the most necessary components are installed, which are 
 * The crystal is exchangeable (depending on the inserted microcontroller max. 20Mhz)
 * Supply voltage via JST XH connector min. 6V, max. 15V
 * Max. 200mA current load (the LDO has a limit of 250mA, the AVR controllers 200mA.)
+* Power consumption with an ATMega328P in sleep mode *"SLEEP_MODE_PWR_DOWN"* and disabled ADC < 10µA
 
 ## Circuit diagram as PDF file
 
@@ -27,4 +30,7 @@ On the ATMega board only the most necessary components are installed, which are 
 
 ![PCB](https://github.com/DoImant/Stuff/blob/main/ATMega-Board/ATMega-Board-PCB.png?raw=true)
 
+![3D-Image](https://github.com/DoImant/Stuff/blob/main/ATMega-Board/ATMega-Board-PCB-3D.png?raw=true)
+
 ![Picture](https://github.com/DoImant/Stuff/blob/main/ATMega-Board/ATMegaboard-1024.jpg?raw=true)
+
