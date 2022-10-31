@@ -18,7 +18,7 @@ With the help of a jumper the power indicator LED (consumes about 3mA) can be sw
 
 * Usable microcontrollers: ATTiny88, ATmega48A/PA, 88A/PA, 168A/PA, 328/P
 * The crystal is exchangeable (depending on the inserted microcontroller max. 20Mhz)
-* Supply voltage via JST XH connector min. 6V, max. 15V
+* Supply voltage via JST XH connector or VIN-Pin min. 6V, max. 15V
 * Max. 200mA current load (the LDO has a limit of 250mA, the AVR controllers 200mA.)
 * Power consumption with an ATMega328P in sleep mode *"SLEEP_MODE_PWR_DOWN"* and disabled ADC < 10µA
 
