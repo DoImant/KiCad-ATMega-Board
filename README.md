@@ -13,6 +13,9 @@ With the help of a jumper the power indicator LED (consumes about 3mA) can be sw
 * Programming must be done via the ISP adapter.
 * For serial communication an external FTDI adapter is required.
 * The analog ports A6 and A7 (e.g. compared to an Arduino Nano) are not available.
+* No 3.3V output. But you can use the whole board instead of a 5V LDO with a 3.3V LDO (MCP-1703-3302MB
+ or HT7833-1).
+
 
 ## Other technical data
 
